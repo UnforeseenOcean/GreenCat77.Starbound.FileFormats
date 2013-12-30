@@ -48,7 +48,7 @@ namespace GreenCat77.Starbound.FileFormats
                     // continuation bit
                     | (uint)(position < value.Value * 2 ? 0x80 : 0)));
 
-                // pull data 7 bits to the left
+                // pull data 7 bits to the right
                 value.Value >>= 7;
 
                 position *= 2;
