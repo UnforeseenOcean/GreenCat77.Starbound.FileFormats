@@ -5,7 +5,7 @@ using System.Text;
 using System.IO;
 using System.Numerics;
 
-namespace GC_StarboundFileFormatLib
+namespace GreenCat77.Starbound.FileFormats
 {
     /// <summary>
     /// Holds the actual data of the player.

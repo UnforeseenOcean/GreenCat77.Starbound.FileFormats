@@ -5,8 +5,11 @@ using System.Text;
 using System.IO;
 using System.Numerics;
 
-namespace GC_StarboundFileFormatLib
+namespace GreenCat77.Starbound.FileFormats
 {
+    /// <summary>
+    /// Packed integer class. Pretty much useless, but shmeh
+    /// </summary>
     public class PackedInt
     {
 

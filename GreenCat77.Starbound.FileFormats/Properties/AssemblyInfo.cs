@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("GC_StarboundFileFormatLib")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("GreenCat77.Starbound.FileFormats")]
+[assembly: AssemblyDescription("GreenCat77.Starbound.FileFormats")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("GC_StarboundFileFormatLib")]
+[assembly: AssemblyCompany("GreenCat77")]
+[assembly: AssemblyProduct("GreenCat77.Starbound.FileFormats")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

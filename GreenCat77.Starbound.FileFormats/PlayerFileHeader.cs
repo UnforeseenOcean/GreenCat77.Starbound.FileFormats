@@ -5,8 +5,11 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 
-namespace GC_StarboundFileFormatLib
+namespace GreenCat77.Starbound.FileFormats
 {
+    /// <summary>
+    /// The header of the player file.
+    /// </summary>
     public class PlayerFileHeader
     {
         public static readonly int SIGNATURE_LENGTH = 8;

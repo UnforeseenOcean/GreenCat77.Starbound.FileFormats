@@ -5,7 +5,7 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 
-namespace GC_StarboundFileFormatLib
+namespace GreenCat77.Starbound.FileFormats
 {
     /// <summary>
     /// Holds the equipped armor of a character.

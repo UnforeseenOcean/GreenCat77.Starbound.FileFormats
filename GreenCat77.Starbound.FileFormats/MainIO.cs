@@ -4,8 +4,11 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace GC_StarboundFileFormatLib
+namespace GreenCat77.Starbound.FileFormats
 {
+    /// <summary>
+    /// Provides methods for saving/loading entire files.
+    /// </summary>
     public class MainIO
     {
 

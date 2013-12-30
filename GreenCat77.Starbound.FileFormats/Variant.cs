@@ -5,10 +5,10 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 
-namespace GC_StarboundFileFormatLib
+namespace GreenCat77.Starbound.FileFormats
 {
     /// <summary>
-    /// INCOMPLETE
+    /// Simply stores a variable value thingy...
     /// </summary>
     public class Variant
     {

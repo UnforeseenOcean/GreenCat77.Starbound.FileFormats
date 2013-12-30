@@ -5,10 +5,10 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 
-namespace GC_StarboundFileFormatLib
+namespace GreenCat77.Starbound.FileFormats
 {
     /// <summary>
-    /// INCOMPLETE
+    /// Holds a list of techs unlocked and a rather long bit of wtf data.
     /// </summary>
     public class TechController
     {

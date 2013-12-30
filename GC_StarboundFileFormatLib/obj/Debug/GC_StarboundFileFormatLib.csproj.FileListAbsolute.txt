@@ -1,5 +1,0 @@
-C:\Game Projects\StarboundPlayerEditor\GC_StarboundFileFormatLib\bin\Debug\GC_StarboundFileFormatLib.dll
-C:\Game Projects\StarboundPlayerEditor\GC_StarboundFileFormatLib\bin\Debug\GC_StarboundFileFormatLib.pdb
-C:\Game Projects\StarboundPlayerEditor\GC_StarboundFileFormatLib\obj\Debug\GC_StarboundFileFormatLib.csprojResolveAssemblyReference.cache
-C:\Game Projects\StarboundPlayerEditor\GC_StarboundFileFormatLib\obj\Debug\GC_StarboundFileFormatLib.dll
-C:\Game Projects\StarboundPlayerEditor\GC_StarboundFileFormatLib\obj\Debug\GC_StarboundFileFormatLib.pdb

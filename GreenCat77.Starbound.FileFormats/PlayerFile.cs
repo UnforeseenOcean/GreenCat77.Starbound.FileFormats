@@ -5,8 +5,11 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 
-namespace GC_StarboundFileFormatLib
+namespace GreenCat77.Starbound.FileFormats
 {
+    /// <summary>
+    /// The actual player file class, consisting of the header and player data.
+    /// </summary>
     public class PlayerFile
     {
 

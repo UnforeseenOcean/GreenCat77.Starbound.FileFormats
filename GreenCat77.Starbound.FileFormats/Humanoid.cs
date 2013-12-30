@@ -5,14 +5,13 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 
-namespace GC_StarboundFileFormatLib
+namespace GreenCat77.Starbound.FileFormats
 {
     /// <summary>
-    /// INCOMPLETE
+    /// Stores the basic attrbutes of a humanoid entity (i.e. Player)
     /// </summary>
     public class Humanoid
     {
-
         public string Name;
         public string Species;
         public byte Gender;

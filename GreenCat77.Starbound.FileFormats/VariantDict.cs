@@ -5,8 +5,11 @@ using System.Linq;
 using System.Numerics;
 using System.Text;
 
-namespace GC_StarboundFileFormatLib
+namespace GreenCat77.Starbound.FileFormats
 {
+    /// <summary>
+    /// A dictionary of variants...found in variants...cue the Inception Cat video.......
+    /// </summary>
     public class VariantDict
     {
         /// <summary>

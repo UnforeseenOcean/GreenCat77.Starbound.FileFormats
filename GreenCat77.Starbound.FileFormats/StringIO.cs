@@ -4,8 +4,12 @@ using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace GC_StarboundFileFormatLib
+namespace GreenCat77.Starbound.FileFormats
 {
+    /// <summary>
+    /// A class that simply saves/loads strings.
+    /// And no, I DO NOT KNOW WHY I MADE THIS ITS OWN CLASS. >:I
+    /// </summary>
     public class StringIO
     {
 

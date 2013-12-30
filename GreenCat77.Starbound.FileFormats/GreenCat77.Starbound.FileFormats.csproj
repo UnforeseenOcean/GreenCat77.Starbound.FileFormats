@@ -7,8 +7,8 @@
     <ProjectGuid>{61785DD5-DF00-4B64-8B5D-27FD70609279}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GC_StarboundFileFormatLib</RootNamespace>
-    <AssemblyName>GC_StarboundFileFormatLib</AssemblyName>
+    <RootNamespace>GreenCat77.Starbound.FileFormats</RootNamespace>
+    <AssemblyName>GreenCat77.Starbound.FileFormats</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
