@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{61785DD5-DF00-4B64-8B5D-27FD70609279}</ProjectGuid>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{047857BA-DAA3-4CA7-AFB8-A1B082B28C6A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GreenCat77.Starbound.FileFormats</RootNamespace>
-    <AssemblyName>GreenCat77.Starbound.FileFormats</AssemblyName>
+    <RootNamespace>Gibbed.IO</RootNamespace>
+    <AssemblyName>Gibbed.IO</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,12 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Gibbed.IO">
-      <HintPath>..\Gibbed.IO\bin\Gibbed.IO.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,26 +40,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Armor.cs" />
-    <Compile Include="BlueprintData.cs" />
-    <Compile Include="EntityStatus.cs" />
-    <Compile Include="ExtensionMethods.cs" />
-    <Compile Include="Humanoid.cs" />
-    <Compile Include="Item.cs" />
-    <Compile Include="ItemBag.cs" />
-    <Compile Include="MainIO.cs" />
-    <Compile Include="PackedInt.cs" />
-    <Compile Include="PackedVariant.cs" />
-    <Compile Include="Player.cs" />
-    <Compile Include="PlayerFile.cs" />
-    <Compile Include="PlayerFileHeader.cs" />
-    <Compile Include="PlayerInventory.cs" />
+    <Compile Include="ByteBufferReader.cs" />
+    <Compile Include="Endian.cs" />
+    <Compile Include="NumberHelpers\Align.cs" />
+    <Compile Include="NumberHelpers\BigEndian.cs" />
+    <Compile Include="NumberHelpers\LittleEndian.cs" />
+    <Compile Include="NumberHelpers\RotateLeft.cs" />
+    <Compile Include="NumberHelpers\RotateRight.cs" />
+    <Compile Include="NumberHelpers\Swap.cs" />
+    <Compile Include="StreamHelpers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Status.cs" />
-    <Compile Include="StringIO.cs" />
-    <Compile Include="TechController.cs" />
-    <Compile Include="Variant.cs" />
-    <Compile Include="VariantDict.cs" />
+    <Compile Include="StreamHelpers\Aligned.cs" />
+    <Compile Include="StreamHelpers\Boolean.cs" />
+    <Compile Include="StreamHelpers\Enum.cs" />
+    <Compile Include="StreamHelpers\Guid.cs" />
+    <Compile Include="StreamHelpers\Numbers\F32.cs" />
+    <Compile Include="StreamHelpers\Numbers\F64.cs" />
+    <Compile Include="StreamHelpers\Numbers\S16.cs" />
+    <Compile Include="StreamHelpers\Numbers\S32.cs" />
+    <Compile Include="StreamHelpers\Numbers\S64.cs" />
+    <Compile Include="StreamHelpers\Numbers\S08.cs" />
+    <Compile Include="StreamHelpers\Numbers\U08.cs" />
+    <Compile Include="StreamHelpers\Numbers\U16.cs" />
+    <Compile Include="StreamHelpers\Numbers\U32.cs" />
+    <Compile Include="StreamHelpers\Numbers\U64.cs" />
+    <Compile Include="StreamHelpers\Strings\Default.cs" />
+    <Compile Include="StreamHelpers\Strings\Internal.cs" />
+    <Compile Include="StreamHelpers\Strings\Supplied.cs" />
+    <Compile Include="StreamHelpers\Structure.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
