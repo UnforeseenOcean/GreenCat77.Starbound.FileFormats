@@ -11,7 +11,6 @@ namespace GreenCat77.Starbound.FileFormats
     /// </summary>
     public class MainIO
     {
-
         public static PlayerFile LoadPlayerFile(string file)
         {
             BinaryReader reader = new BinaryReader(File.OpenRead(file));

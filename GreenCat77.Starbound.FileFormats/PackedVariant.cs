@@ -13,7 +13,7 @@ namespace GreenCat77.Starbound.FileFormats
     public class PackedVariant
     {
         /// <summary>
-        /// Length = NumVariants
+        /// Pre: PackedInt Count
         /// </summary>
         public List<Variant> Variants = new List<Variant>();
 

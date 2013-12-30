@@ -89,7 +89,7 @@ namespace GreenCat77.Starbound.FileFormats
             Humanoid.SaveToBin(item.HumanoidEntity, writer);
             EntityStatus.SaveToBin(item.DefaultStatus, writer);
             Status.SaveToBin(item.CurrentStatus, writer);
-            writer.Write(item.Description);
+            StringIO.SaveToBin(item.Description, writer);
             writer.Write(item.PlayingTime);
             PlayerInventory.SaveToBin(item.Inventory, writer);
             BlueprintData.SaveToBin(item.Blueprints, writer);

@@ -22,7 +22,7 @@ namespace GreenCat77.Starbound.FileFormats
 
         public static void SaveToBin(Item item, BinaryWriter writer)
         {
-            writer.Write(item.Name);
+            StringIO.SaveToBin(item.Name, writer);
             PackedInt.SaveToBin(item.Stack, writer);
             Variant.SaveToBin(item.ItemParams, writer);
         }
