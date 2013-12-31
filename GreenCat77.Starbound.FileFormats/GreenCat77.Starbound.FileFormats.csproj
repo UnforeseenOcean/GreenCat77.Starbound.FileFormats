@@ -30,9 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Gibbed.IO">
-      <HintPath>..\Gibbed.IO\bin\Gibbed.IO.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
@@ -63,6 +60,12 @@
     <Compile Include="TechController.cs" />
     <Compile Include="Variant.cs" />
     <Compile Include="VariantDict.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Gibbed.IO\Gibbed.IO.csproj">
+      <Project>{047857ba-daa3-4ca7-afb8-a1b082b28c6a}</Project>
+      <Name>Gibbed.IO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
